@@ -47,6 +47,23 @@
         font-size: 15px;
         font-weight: 600;
     }
+
+    /* Dark mode adjustments */
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #333333;
+            color: #FFFFFF; 
+        }
+        .signature-divider {
+            border-left-color: #FFFFFF; 
+        }
+        .signature-container, a {
+            color: #FFFFFF;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
     /* media query of mobile version */
     @media only screen and (max-width: 600px) {
         .signature-container {
