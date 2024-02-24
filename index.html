@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .signature-container {
+        font-family: 'Arial', sans-serif;
+        font-size: 10px;
+        line-height: 1.4;
+        border-spacing: 0;
+    }
+    .signature-logo img {
+        display: block;
+        width: 150px; /* Adjust width as needed */
+        height: auto;
+    }
+    .signature-info {
+        padding: 0 10px; /* Adjust spacing as needed */
+    }
+    .signature-info strong {
+        font-size: 21px;
+        text-align: center;
+        display: block;
+    }
+    .signature-info p {
+        font-size: 14px;
+        text-align: center;
+        font-weight:400;
+    }
+    .signature-divider {
+        border-left: 1px solid #000000;
+        margin: 0 20px; /* Adjust spacing as needed */
+        height: auto; /* Adjust height as needed */
+    }
+    .signature-contact img {
+        width: 30px; /* Adjust icon size as needed */
+        margin-right: 5px;
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+    a {
+        color: #000000; /* Default link color */
+        text-decoration: none;
+        margin: 15px 0px;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    /* media query of mobile version */
+    @media only screen and (max-width: 600px) {
+        .signature-container {
+            font-size: 8px;
+        }
+        .signature-logo img {
+            width: 50px;
+        }
+        .signature-info strong {
+            font-size: 12px;
+        }
+        .signature-info p {
+            font-size: 10px;
+        }
+        .signature-contact img {
+            width: 20px;
+        }
+        .signature-contact a {
+            font-size: 10px;
+            margin: 5px 0px;
+        }
+    }
+</style>
+</head>
+<body>
+    <table class="signature-container">
+        <tr>
+            <td class="signature-logo">
+                <img src="http://dobernut.com/wp-content/uploads/2024/02/email-sig-log0.png" alt="Logo" />
+            </td>
+            
+            <td class="signature-info">
+                <strong>DOBERNUT</strong>
+                <p>Delivering high-end <br> dog equipment,<br>
+                prioritising superior <br> quality and durability</p>
+            </td>
+            <td class="signature-divider"></td>
+            <td class="signature-contact">
+                <a href="mailto:contact@dobernut.com"><img src="http://dobernut.com/wp-content/uploads/2024/02/email-sig-email-logo.png" alt="Phone" /> contact@dobernut.com</a><br>
+            
+                <a href="https://www.dobernut.com" target="_blank"><img src="http://dobernut.com/wp-content/uploads/2024/02/email-sig-web-link-logo.png" alt="Facebook" />www.dobernut.com</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
